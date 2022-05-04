@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:bullseye-slim
 MAINTAINER Damien Carcel <damien.carcel@akeneo.com>
 
 ENV DEBIAN_FRONTEND noninteractive
