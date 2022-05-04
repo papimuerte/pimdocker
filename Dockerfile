@@ -15,8 +15,8 @@ RUN apt-get update && \
             /usr/share/lintian/* /usr/share/locale/* /usr/share/man/*
 
 # Add Sury PHP repository
-RUN wget -O sury.gpg https://packages.sury.org/php/apt.gpg && apt-key add sury.gpg && rm sury.gpg
-COPY files/sury.list /etc/apt/sources.list.d/sury.list
+#RUN wget -O sury.gpg https://packages.sury.org/php/apt.gpg && apt-key add sury.gpg && rm sury.gpg
+#COPY files/sury.list /etc/apt/sources.list.d/sury.list
 
 # Install PHP with some extensions
 RUN apt-get update && \
